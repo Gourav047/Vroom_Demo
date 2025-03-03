@@ -1,0 +1,16 @@
+<div id="images">
+    <div class="container">
+        <div class="tim-title">
+            <h3>Services</h3>
+        </div>
+
+        <div class="row">
+            <div *ngFor="let data of services_list" class="col-xs-6 col-sm-4 col-md-2 offset-md-1">
+                <h4 class="images-title">{{data.name}}</h4>
+                <img src="assets/img/faces/clem-onojeghuo-3.jpg" class="img-thumbnail img-responsive" alt="Rounded Image">
+                <p class="text-center">{{data.short_summary}}</p>
+                <span class="btn btn-link btn-primary">See More</span>
+            </div>
+        </div>
+    </div>
+</div>
